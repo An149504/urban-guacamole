@@ -1,1447 +1,710 @@
 
 
 
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Дизайнер штор в Санкт-Петербурге
-— пошив штор на заказ</title>
-  <meta name="description" content="Дизайн и пошив штор на заказ в Санкт-Петербурге
-. Выезд дизайнера с образцами тканей, замер, изготовление и монтаж.">
-  <meta name="theme-color" content="#6f604f">
-
-  <link rel="canonical" href="https://example.ru/">
-  <link rel="preconnect" href="https://images.unsplash.com">
-
-  <style>
-    :root {
-      --bg: #f7f4ef;
-      --surface: #ffffff;
-      --text: #292722;
-      --muted: #6e6a62;
-      --accent: #786652;
-      --accent-dark: #574838;
-      --line: #e7e0d7;
-      --green: #5f725d;
-      --radius: 24px;
-      --shadow: 0 18px 50px rgba(49, 41, 32, .10);
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
-    body {
-      margin: 0;
-      color: var(--text);
-      background: var(--bg);
-      font-family: Arial, Helvetica, sans-serif;
-      line-height: 1.6;
-    }
-
-    body.menu-open {
-      overflow: hidden;
-    }
-
-    img {
-      display: block;
-      max-width: 100%;
-    }
-
-    a {
-      color: inherit;
-      text-decoration: none;
-    }
-
-    button,
-    input,
-    select,
-    textarea {
-      font: inherit;
-    }
-
-    button {
-      cursor: pointer;
-    }
-
-    .container {
-      width: min(1160px, calc(100% - 40px));
-      margin-inline: auto;
-    }
-
-    .section {
-      padding: 100px 0;
-    }
-
-    .section-white {
-      background: var(--surface);
-    }
-
-    .eyebrow {
-      margin: 0 0 12px;
-      color: var(--accent);
-      font-size: 13px;
-      font-weight: 800;
-      letter-spacing: .14em;
-      text-transform: uppercase;
-    }
-
-    h1,
-    h2,
-    h3,
-    p {
-      margin-top: 0;
-    }
-
-    h1,
-    h2 {
-      font-family: Georgia, "Times New Roman", serif;
-      font-weight: 500;
-      line-height: 1.08;
-    }
-
-    h1 {
-      max-width: 780px;
-      margin-bottom: 24px;
-      font-size: clamp(42px, 7vw, 82px);
-    }
-
-    h2 {
-      margin-bottom: 22px;
-      font-size: clamp(36px, 5vw, 58px);
-    }
-
-    h3 {
-      line-height: 1.3;
-    }
-
-    .lead {
-      max-width: 680px;
-      color: var(--muted);
-      font-size: 19px;
-    }
-
-    .section-heading {
-      display: flex;
-      align-items: end;
-      justify-content: space-between;
-      gap: 30px;
-      margin-bottom: 44px;
-    }
-
-    .section-heading p {
-      max-width: 520px;
-      margin-bottom: 4px;
-      color: var(--muted);
-    }
-
-    .btn {
-      display: inline-flex;
-      min-height: 52px;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-      padding: 13px 24px;
-      border: 1px solid var(--accent);
-      border-radius: 100px;
-      background: var(--accent);
-      color: #fff;
-      font-weight: 700;
-      transition: .25s ease;
-    }
-
-    .btn:hover {
-      border-color: var(--accent-dark);
-      background: var(--accent-dark);
-      transform: translateY(-2px);
-    }
-
-    .btn-outline {
-      background: transparent;
-      color: var(--text);
-    }
-
-    .btn-outline:hover {
-      color: #fff;
-    }
-
-    .btn-light {
-      border-color: #fff;
-      background: #fff;
-      color: var(--accent-dark);
-    }
-
-    .btn-light:hover {
-      border-color: #f2ece4;
-      background: #f2ece4;
-      color: var(--accent-dark);
-    }
-
-    .skip-link {
-      position: fixed;
-      z-index: 2000;
-      top: 10px;
-      left: 10px;
-      padding: 10px 16px;
-      border-radius: 8px;
-      background: #fff;
-      transform: translateY(-150%);
-    }
-
-    .skip-link:focus {
-      transform: translateY(0);
-    }
-
-    .header {
-      position: absolute;
-      z-index: 100;
-      top: 0;
-      width: 100%;
-      border-bottom: 1px solid rgba(255, 255, 255, .25);
-      color: #fff;
-    }
-
-    .nav {
-      display: flex;
-      min-height: 82px;
-      align-items: center;
-      justify-content: space-between;
-      gap: 30px;
-    }
-
-    .logo {
-      display: flex;
-      flex-direction: column;
-      line-height: 1.05;
-    }
-
-    .logo strong {
-      font-family: Georgia, serif;
-      font-size: 25px;
-      font-weight: 500;
-    }
-
-    .logo span {
-      margin-top: 6px;
-      font-size: 10px;
-      letter-spacing: .16em;
-      text-transform: uppercase;
-    }
-
-    .nav-links {
-      display: flex;
-      align-items: center;
-      gap: 28px;
-      font-size: 14px;
-      font-weight: 700;
-    }
-
-    .nav-links a:hover {
-      opacity: .75;
-    }
-
-    .nav-phone {
-      white-space: nowrap;
-    }
-
-    .menu-button {
-      display: none;
-      width: 46px;
-      height: 46px;
-      border: 1px solid rgba(255, 255, 255, .5);
-      border-radius: 50%;
-      background: transparent;
-      color: #fff;
-      font-size: 22px;
-    }
-
-    .hero {
-      position: relative;
-      display: grid;
-      min-height: 850px;
-      align-items: end;
-      overflow: hidden;
-      background:
-        linear-gradient(90deg, rgba(26, 23, 20, .78), rgba(26, 23, 20, .18)),
-        url("https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1800&q=85")
-        center / cover;
-      color: #fff;
-    }
-
-    .hero-content {
-      position: relative;
-      z-index: 2;
-      padding: 190px 0 105px;
-    }
-
-    .hero .eyebrow,
-    .hero .lead {
-      color: rgba(255, 255, 255, .85);
-    }
-
-    .hero-actions {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 14px;
-      margin-top: 36px;
-    }
-
-    .hero-facts {
-      display: grid;
-      max-width: 850px;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 1px;
-      margin-top: 75px;
-      border: 1px solid rgba(255, 255, 255, .25);
-      background: rgba(255, 255, 255, .25);
-      backdrop-filter: blur(12px);
-    }
-
-    .fact {
-      min-height: 105px;
-      padding: 22px;
-      background: rgba(25, 22, 19, .42);
-    }
-
-    .fact strong {
-      display: block;
-      margin-bottom: 3px;
-      font-family: Georgia, serif;
-      font-size: 28px;
-      font-weight: 500;
-    }
-
-    .fact span {
-      color: rgba(255, 255, 255, .78);
-      font-size: 13px;
-    }
-
-    .services {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 20px;
-    }
-
-    .service-card {
-      padding: 30px;
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      background: var(--surface);
-      transition: .25s ease;
-    }
-
-    .service-card:hover {
-      box-shadow: var(--shadow);
-      transform: translateY(-5px);
-    }
-
-    .service-number {
-      display: grid;
-      width: 48px;
-      height: 48px;
-      margin-bottom: 35px;
-      place-items: center;
-      border-radius: 50%;
-      background: #eee8df;
-      color: var(--accent);
-      font-family: Georgia, serif;
-      font-size: 19px;
-    }
-
-    .service-card h3 {
-      margin-bottom: 12px;
-      font-family: Georgia, serif;
-      font-size: 25px;
-      font-weight: 500;
-    }
-
-    .service-card p {
-      margin-bottom: 0;
-      color: var(--muted);
-    }
-
-    .about-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      align-items: center;
-      gap: 80px;
-    }
-
-    .about-image {
-      position: relative;
-    }
-
-    .about-image img {
-      width: 100%;
-      height: 650px;
-      border-radius: var(--radius);
-      object-fit: cover;
-    }
-
-    .experience {
-      position: absolute;
-      right: -30px;
-      bottom: 30px;
-      width: 180px;
-      padding: 25px;
-      border-radius: 18px;
-      background: var(--accent);
-      color: #fff;
-      box-shadow: var(--shadow);
-    }
-
-    .experience strong {
-      display: block;
-      font-family: Georgia, serif;
-      font-size: 42px;
-      font-weight: 500;
-    }
-
-    .check-list {
-      display: grid;
-      gap: 15px;
-      margin: 28px 0 36px;
-    }
-
-    .check-item {
-      display: flex;
-      align-items: flex-start;
-      gap: 12px;
-    }
-
-    .check-item::before {
-      content: "✓";
-      display: grid;
-      flex: 0 0 26px;
-      height: 26px;
-      place-items: center;
-      border-radius: 50%;
-      background: #e7eee5;
-      color: var(--green);
-      font-weight: 800;
-    }
-
-    .portfolio-grid {
-      display: grid;
-      grid-template-columns: 1.25fr .75fr;
-      gap: 20px;
-    }
-
-    .portfolio-side {
-      display: grid;
-      gap: 20px;
-    }
-
-    .project {
-      position: relative;
-      min-height: 300px;
-      overflow: hidden;
-      border-radius: var(--radius);
-    }
-
-    .project-large {
-      min-height: 620px;
-    }
-
-    .project img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      transition: transform .5s ease;
-    }
-
-    .project:hover img {
-      transform: scale(1.04);
-    }
-
-    .project-caption {
-      position: absolute;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      padding: 55px 24px 22px;
-      color: #fff;
-      background: linear-gradient(transparent, rgba(24, 20, 17, .82));
-    }
-
-    .project-caption h3 {
-      margin-bottom: 3px;
-      font-family: Georgia, serif;
-      font-size: 25px;
-      font-weight: 500;
-    }
-
-    .project-caption span {
-      color: rgba(255, 255, 255, .78);
-      font-size: 13px;
-    }
-
-    .steps {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 20px;
-    }
-
-    .step {
-      position: relative;
-      padding-top: 25px;
-      border-top: 1px solid var(--line);
-    }
-
-    .step strong {
-      display: block;
-      margin-bottom: 35px;
-      color: var(--accent);
-      font-family: Georgia, serif;
-      font-size: 36px;
-      font-weight: 500;
-    }
-
-    .step h3 {
-      margin-bottom: 10px;
-      font-size: 19px;
-    }
-
-    .step p {
-      color: var(--muted);
-      font-size: 14px;
-    }
-
-    .price-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 20px;
-    }
-
-    .price-card {
-      display: flex;
-      min-height: 430px;
-      flex-direction: column;
-      padding: 34px;
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      background: var(--surface);
-    }
-
-    .price-card.featured {
-      border-color: var(--accent);
-      background: var(--accent);
-      color: #fff;
-      transform: translateY(-12px);
-    }
-
-    .price-card h3 {
-      margin-bottom: 8px;
-      font-family: Georgia, serif;
-      font-size: 28px;
-      font-weight: 500;
-    }
-
-    .price {
-      margin: 18px 0;
-      font-family: Georgia, serif;
-      font-size: 36px;
-    }
-
-    .price-card p {
-      color: var(--muted);
-    }
-
-    .price-card.featured p {
-      color: rgba(255, 255, 255, .75);
-    }
-
-    .price-list {
-      display: grid;
-      gap: 12px;
-      margin: 15px 0 30px;
-      padding: 0;
-      list-style: none;
-    }
-
-    .price-list li::before {
-      content: "—";
-      margin-right: 9px;
-      color: var(--accent);
-    }
-
-    .featured .price-list li::before {
-      color: #fff;
-    }
-
-    .price-card .btn {
-      margin-top: auto;
-    }
-
-    .reviews {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 20px;
-    }
-
-    .review {
-      padding: 30px;
-      border-radius: var(--radius);
-      background: var(--surface);
-    }
-
-    .stars {
-      margin-bottom: 22px;
-      color: #b79255;
-      letter-spacing: .15em;
-    }
-
-    .review blockquote {
-      margin: 0 0 28px;
-      font-family: Georgia, serif;
-      font-size: 20px;
-      line-height: 1.55;
-    }
-
-    .review-author strong,
-    .review-author span {
-      display: block;
-    }
-
-    .review-author span {
-      color: var(--muted);
-      font-size: 13px;
-    }
-
-    .faq {
-      max-width: 850px;
-      margin-inline: auto;
-    }
-
-    details {
-      border-bottom: 1px solid var(--line);
-    }
-
-    summary {
-      position: relative;
-      padding: 24px 45px 24px 0;
-      cursor: pointer;
-      font-size: 18px;
-      font-weight: 700;
-      list-style: none;
-    }
-
-    summary::-webkit-details-marker {
-      display: none;
-    }
-
-    summary::after {
-      content: "+";
-      position: absolute;
-      top: 18px;
-      right: 0;
-      color: var(--accent);
-      font-family: Georgia, serif;
-      font-size: 30px;
-      font-weight: 400;
-    }
-
-    details[open] summary::after {
-      content: "−";
-    }
-
-    details p {
-      max-width: 760px;
-      padding-bottom: 24px;
-      color: var(--muted);
-    }
-
-    .contact {
-      background: var(--accent-dark);
-      color: #fff;
-    }
-
-    .contact-grid {
-      display: grid;
-      grid-template-columns: .8fr 1.2fr;
-      gap: 80px;
-    }
-
-    .contact .eyebrow,
-    .contact-text {
-      color: rgba(255, 255, 255, .72);
-    }
-
-    .contact-links {
-      display: grid;
-      gap: 12px;
-      margin-top: 35px;
-    }
-
-    .contact-links a {
-      width: fit-content;
-      font-size: 19px;
-      font-weight: 700;
-    }
-
-    .form {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 16px;
-      padding: 32px;
-      border-radius: var(--radius);
-      background: #fff;
-      color: var(--text);
-    }
-
-    .field {
-      display: grid;
-      gap: 7px;
-    }
-
-    .field-full {
-      grid-column: 1 / -1;
-    }
-
-    label {
-      font-size: 13px;
-      font-weight: 700;
-    }
-
-    input,
-    select,
-    textarea {
-      width: 100%;
-      border: 1px solid var(--line);
-      border-radius: 12px;
-      outline: none;
-      background: #fbfaf8;
-    }
-
-    input,
-    select {
-      height: 52px;
-      padding: 0 15px;
-    }
-
-    textarea {
-      min-height: 110px;
-      padding: 14px 15px;
-      resize: vertical;
-    }
-
-    input:focus,
-    select:focus,
-    textarea:focus {
-      border-color: var(--accent);
-      box-shadow: 0 0 0 3px rgba(120, 102, 82, .12);
-    }
-
-    .consent {
-      display: flex;
-      grid-column: 1 / -1;
-      align-items: flex-start;
-      gap: 10px;
-      color: var(--muted);
-      font-size: 12px;
-    }
-
-    .consent input {
-      width: 17px;
-      height: 17px;
-      margin-top: 2px;
-    }
-
-    .form-status {
-      display: none;
-      grid-column: 1 / -1;
-      padding: 13px;
-      border-radius: 10px;
-      background: #e7eee5;
-      color: #40533e;
-      font-size: 14px;
-    }
-
-    .footer {
-      padding: 26px 0;
-      background: #29241f;
-      color: rgba(255, 255, 255, .65);
-      font-size: 13px;
-    }
-
-    .footer-inner {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 20px;
-    }
-
-    @media (max-width: 900px) {
-      .menu-button {
-        display: block;
-      }
-
-      .nav-links {
-        position: fixed;
-        inset: 0;
-        z-index: -1;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background: #302923;
-        font-size: 22px;
-        opacity: 0;
-        pointer-events: none;
-        transition: .25s ease;
-      }
-
-      .nav-links.open {
-        z-index: 90;
-        opacity: 1;
-        pointer-events: auto;
-      }
-
-      .menu-button {
-        position: relative;
-        z-index: 100;
-      }
-
-      .nav-phone {
-        display: none;
-      }
-
-      .services,
-      .price-grid,
-      .reviews {
-        grid-template-columns: 1fr 1fr;
-      }
-
-      .about-grid,
-      .contact-grid {
-        grid-template-columns: 1fr;
-        gap: 45px;
-      }
-
-      .steps {
-        grid-template-columns: 1fr 1fr;
-      }
-
-      .experience {
-        right: 20px;
-      }
-    }
-
-    @media (max-width: 650px) {
-      .container {
-        width: min(100% - 28px, 1160px);
-      }
-
-      .section {
-        padding: 72px 0;
-      }
-
-      .hero {
-        min-height: 760px;
-      }
-
-      .hero-content {
-        padding: 145px 0 55px;
-      }
-
-      .hero-facts {
-        grid-template-columns: 1fr;
-        margin-top: 45px;
-      }
-
-      .fact {
-        min-height: auto;
-        padding: 16px 19px;
-      }
-
-      .section-heading {
-        display: block;
-      }
-
-      .services,
-      .steps,
-      .price-grid,
-      .reviews,
-      .portfolio-grid,
-      .form {
-        grid-template-columns: 1fr;
-      }
-
-      .portfolio-side {
-        grid-template-columns: 1fr;
-      }
-
-      .project,
-      .project-large {
-        min-height: 430px;
-      }
-
-      .about-image img {
-        height: 500px;
-      }
-
-      .price-card.featured {
-        transform: none;
-      }
-
-      .field-full,
-      .consent,
-      .form-status {
-        grid-column: auto;
-      }
-
-      .form {
-        padding: 22px;
-      }
-
-      .footer-inner {
-        align-items: flex-start;
-        flex-direction: column;
-      }
-    }
-  </style>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": " Ольга Картавцева— дизайнер штор",
-    "url": "https://example.ru/",
-    "telephone": "+7-999-123-45-67",
-    "priceRange": "₽₽",
-    "description": "Дизайн, подбор тканей и пошив штор на заказ.",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": " Санкт-Петербург",
-      "addressCountry": "RU"
-    },
-    "openingHours": "Mo-Sa 09:00-20:00"
-  }
-  </script>
+<meta charset="UTF-8">
+    <title>Мой сайт с картинкой</title>
 </head>
-
 <body>
-  <a class="skip-link" href="#main">Перейти к содержанию</a>
-
-  <header class="header">
-    <div class="container nav">
-      <a class="logo" href="#top" aria-label="На главную">
-        <strong> Olga Textile</strong>
-        <span>дизайн штор</span>
-      </a>
-
-      <nav class="nav-links" id="navigation" aria-label="Главная навигация">
-        <a href="#services">Услуги</a>
-        <a href="#portfolio">Портфолио</a>
-        <a href="#steps">Этапы</a>
-        <a href="#prices">Цены</a>
-        <a href="#contacts">Контакты</a>
-      </nav>
-
-      <a class="nav-phone" href="tel: +7-921-926-17-71">+7-921-926-17-71</a>
-
-      <button
-        class="menu-button"
-        type="button"
-        aria-label="Открыть меню"
-        aria-controls="navigation"
-        aria-expanded="false"
-      >☰</button>
-    </div>
-  </header>
-
-  <main id="main">
-    <section class="hero" id="top">
-      <div class="container hero-content">
-        <p class="eyebrow">Дизайн • Пошив • Монтаж</p>
-
-        <h1>Шторы, которые завершают ваш интерьер</h1>
-
-        <p class="lead">
-          Создаём индивидуальное текстильное оформление в Санкт-Петербурге:
-          от выезда дизайнера с образцами тканей до монтажа готовых штор.
-        </p>
-
-        <div class="hero-actions">
-          <a class="btn btn-light" href="#contacts">Вызвать дизайнера</a>
-          <a class="btn btn-outline" href="#portfolio">Посмотреть проекты</a>
-        </div>
-
-        <div class="hero-facts">
-          <div class="fact">
-            <strong>12 лет</strong>
-            <span>опыта в текстильном дизайне</span>
-          </div>
-
-          <div class="fact">
-            <strong>450+</strong>
-            <span>реализованных интерьеров</span>
-          </div>
-
-          <div class="fact">
-            <strong>14 дней</strong>
-            <span>средний срок изготовления</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="services">
-      <div class="container">
-        <div class="section-heading">
-          <div>
-            <p class="eyebrow">Услуги</p>
-            <h2>Всё для оформления окон</h2>
-          </div>
-
-          <p>
-            Берём на себя весь процесс: проводим замеры, подбираем ткани,
-            разрабатываем дизайн, выполняем пошив и монтаж.
-          </p>
-        </div>
-
-        <div class="services">
-          <article class="service-card">
-            <span class="service-number">01</span>
-            <h3>Выезд дизайнера</h3>
-            <p>Приедем с каталогами тканей, выполним замеры и предложим решения для вашего интерьера.</p>
-          </article>
-
-          <article class="service-card">
-            <span class="service-number">02</span>
-            <h3>Дизайн и подбор тканей</h3>
-            <p>Подберём фактуры, оттенки, карнизы и варианты драпировки с учётом освещения комнаты.</p>
-          </article>
-
-          <article class="service-card">
-            <span class="service-number">03</span>
-            <h3>Индивидуальный пошив</h3>
-            <p>Сошьём классические, римские, рулонные и комбинированные шторы точно по размерам.</p>
-          </article>
-
-          <article class="service-card">
-            <span class="service-number">04</span>
-            <h3>Карнизы и монтаж</h3>
-            <p>Подберём надёжную конструкцию, установим карниз, повесим и профессионально отпарим шторы.</p>
-          </article>
-
-          <article class="service-card">
-            <span class="service-number">05</span>
-            <h3>Домашний текстиль</h3>
-            <p>Изготовим покрывала, декоративные подушки, чехлы и другие элементы в единой стилистике.</p>
-          </article>
-
-          <article class="service-card">
-            <span class="service-number">06</span>
-            <h3>Для бизнеса</h3>
-            <p>Оформляем окна ресторанов, гостиниц, салонов, офисов и других коммерческих пространств.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-white">
-      <div class="container about-grid">
-        <div class="about-image">
-          <img
-            src="https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1100&q=85"
-            alt="Светлая гостиная с дизайнерскими шторами"
-            width="800"
-            height="1000"
-            loading="lazy"
-          >
-
-          <div class="experience">
-            <strong>12+</strong>
-            <span>лет создаём уютные интерьеры</span>
-          </div>
-        </div>
-
-        <div>
-          <p class="eyebrow">О дизайнере</p>
-          <h2>Текстиль, созданный именно для вашего дома</h2>
-
-          <p class="lead">
-            Я Ольга Картавцева, дизайнер по текстилю. Помогаю сделать пространство
-            гармоничным, уютным и функциональным с помощью правильно подобранных штор.
-          </p>
-
-          <div class="check-list">
-            <div class="check-item">Более 2 000 образцов европейских и российских тканей</div>
-            <div class="check-item">Договор, прозрачная смета и гарантия на работу</div>
-            <div class="check-item">Решения для квартир, домов и коммерческих объектов</div>
-            <div class="check-item">Персональное сопровождение на всех этапах</div>
-          </div>
-
-          <a class="btn" href="#contacts">Обсудить проект</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="portfolio">
-      <div class="container">
-        <div class="section-heading">
-          <div>
-            <p class="eyebrow">Портфолио</p>
-            <h2>Реализованные проекты</h2>
-          </div>
-
-          <p>
-            Каждое оформление разрабатывается индивидуально под архитектуру,
-            освещение и характер интерьера.
-          </p>
-        </div>
-
-        <div class="portfolio-grid">
-          <article class="project project-large">
-            <img
-              src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=85"
-              alt="Шторы в современной светлой гостиной"
-              width="1000"
-              height="1200"
-              loading="lazy"
-            >
-            <div class="project-caption">
-              <h3>Гостиная в современном стиле</h3>
-              <span>Лён • декоративный кант • скрытый карниз</span>
-            </div>
-          </article>
-
-          <div class="portfolio-side">
-            <article class="project">
-              <img
-                src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1000&q=85"
-                alt="Шторы блэкаут в спальне"
-                width="900"
-                height="600"
-                loading="lazy"
-              >
-              <div class="project-caption">
-                <h3>Спальня с блэкаутом</h3>
-                <span>Бархат • тюль • электрокарниз</span>
-              </div>
-            </article>
-
-            <article class="project">
-              <img
-                src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=85"
-                alt="Текстильное оформление загородного дома"
-                width="900"
-                height="600"
-                loading="lazy"
-              >
-              <div class="project-caption">
-                <h3>Загородный дом</h3>
-                <span>Натуральные ткани • мягкие складки</span>
-              </div>
-            </article>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-white" id="steps">
-      <div class="container">
-        <div class="section-heading">
-          <div>
-            <p class="eyebrow">Процесс</p>
-            <h2>Как проходит работа</h2>
-          </div>
-        </div>
-
-        <div class="steps">
-          <article class="step">
-            <strong>01</strong>
-            <h3>Консультация</h3>
-            <p>Обсуждаем интерьер, пожелания, сроки и ориентировочный бюджет.</p>
-          </article>
-
-          <article class="step">
-            <strong>02</strong>
-            <h3>Выезд и замер</h3>
-            <p>Дизайнер привозит образцы, выполняет точные замеры и составляет эскиз.</p>
-          </article>
-
-          <article class="step">
-            <strong>03</strong>
-            <h3>Пошив</h3>
-            <p>Утверждаем смету и передаём заказ в собственную швейную мастерскую.</p>
-          </article>
-
-          <article class="step">
-            <strong>04</strong>
-            <h3>Монтаж</h3>
-            <p>Устанавливаем карнизы, развешиваем, отпариваем и укладываем складки.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="prices">
-      <div class="container">
-        <div class="section-heading">
-          <div>
-            <p class="eyebrow">Стоимость</p>
-            <h2>Варианты сотрудничества</h2>
-          </div>
-
-          <p>Точная стоимость зависит от размеров окна, выбранных тканей, модели и сложности монтажа.</p>
-        </div>
-
-        <div class="price-grid">
-          <article class="price-card">
-            <h3>Консультация</h3>
-            <p>Для тех, кому нужна профессиональная помощь в выборе.</p>
-            <div class="price">от 3 000 ₽</div>
-
-            <ul class="price-list">
-              <li>Выезд дизайнера</li>
-              <li>Замер одного помещения</li>
-              <li>Подбор вариантов</li>
-              <li>Предварительный расчёт</li>
-            </ul>
-
-            <a class="btn btn-outline" href="#contacts">Заказать</a>
-          </article>
-
-          <article class="price-card featured">
-            <h3>Под ключ</h3>
-            <p>Полное текстильное оформление одного помещения.</p>
-            <div class="price">от 45 000 ₽</div>
-
-            <ul class="price-list">
-              <li>Дизайн и подбор тканей</li>
-              <li>Точный замер</li>
-              <li>Пошив штор и тюля</li>
-              <li>Доставка и монтаж</li>
-            </ul>
-
-            <a class="btn btn-light" href="#contacts">Рассчитать проект</a>
-          </article>
-
-          <article class="price-card">
-            <h3>Только пошив</h3>
-            <p>Если ткань и модель уже выбраны.</p>
-            <div class="price">от 900 ₽/м</div>
-
-            <ul class="price-list">
-              <li>Расчёт расхода ткани</li>
-              <li>Профессиональный пошив</li>
-              <li>Контроль качества</li>
-              <li>Отпаривание изделия</li>
-            </ul>
-
-            <a class="btn btn-outline" href="#contacts">Узнать стоимость</a>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-white">
-      <div class="container">
-        <div class="section-heading">
-          <div>
-            <p class="eyebrow">Отзывы</p>
-            <h2>Что говорят клиенты</h2>
-          </div>
-        </div>
-
-        <div class="reviews">
-          <article class="review">
-            <div class="stars" aria-label="Оценка 5 из 5">★★★★★</div>
-            <blockquote>
-              «Ольга идеально подобрала оттенок и фактуру. Комната стала визуально
-              выше и уютнее, а монтаж прошёл очень аккуратно».
-            </blockquote>
-            <div class="review-author">
-              <strong>Анна К.</strong>
-              <span>Оформление гостиной</span>
-            </div>
-          </article>
-
-          <article class="review">
-            <div class="stars" aria-label="Оценка 5 из 5">★★★★★</div>
-            <blockquote>
-              «Заказывали шторы во всю квартиру. Все сроки соблюдены, ткани
-              прекрасного качества, результат полностью совпал с эскизами».
-            </blockquote>
-            <div class="review-author">
-              <strong>Елена и Михаил</strong>
-              <span>Трёхкомнатная квартира</span>
-            </div>
-          </article>
-
-          <article class="review">
-            <div class="stars" aria-label="Оценка 5 из 5">★★★★★</div>
-            <blockquote>
-              «Нужно было оформить нестандартные высокие окна. Получилось
-              функционально и очень красиво. Благодарим за профессионализм».
-            </blockquote>
-            <div class="review-author">
-              <strong>Ольга С.</strong>
-              <span>Загородный дом</span>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container faq">
-        <div class="section-heading">
-          <div>
-            <p class="eyebrow">Вопросы и ответы</p>
-            <h2>Частые вопросы</h2>
-          </div>
-        </div>
-
-        <details>
-          <summary>Сколько времени занимает изготовление штор?</summary>
-          <p>Средний срок составляет 10–20 рабочих дней после утверждения дизайна и поступления тканей.</p>
-        </details>
-
-        <details>
-          <summary>Можно ли заказать только пошив?</summary>
-          <p>Да. Мы можем рассчитать расход материала и выполнить пошив из предоставленной вами ткани.</p>
-        </details>
-
-        <details>
-          <summary>Вы привозите образцы тканей на дом?</summary>
-          <p>Да. Дизайнер привозит каталоги, чтобы оценить оттенки и фактуры непосредственно в вашем интерьере.</p>
-        </details>
-
-        <details>
-          <summary>Работаете ли вы за пределами Санкт-Петербурга?</summary>
-          <p>Да, возможен выезд по Ленинградской обл. Условия и стоимость согласовываются индивидуально.</p>
-        </details>
-
-        <details>
-          <summary>Предоставляется ли гарантия?</summary>
-          <p>На пошив и монтаж предоставляется гарантия. Все условия фиксируются в договоре.</p>
-        </details>
-      </div>
-    </section>
-
-    <section class="section contact" id="contacts">
-      <div class="container contact-grid">
-        <div>
-          <p class="eyebrow">Обсудим ваш интерьер</p>
-          <h2>Получите предварительный расчёт</h2>
-
-          <p class="contact-text">
-            Оставьте контакты. Дизайнер свяжется с вами, уточнит размеры,
-            пожелания и предложит подходящий формат работы.
-          </p>
-
-          <div class="contact-links">
-            <a href="tel: +79219261771">+7-921-926-17-71</a>
-            <a href="mailto:hellokartavtseva_olga@bk.ru">hellokartavtseva_olga@bk.ru</a>
-            <span> Санкт-Петербурги Ленинградской обл</span>
-          </div>
-        </div>
-
-        <form class="form" id="requestForm">
-          <div class="field">
-            <label for="name">Ваше имя</label>
-            <input id="name" name="name" type="text" autocomplete="name" placeholder="Анна" required>
-          </div>
-
-          <div class="field">
-            <label for="phone">Телефон</label>
-            <input
-              id="phone"
-              name="phone"
-              type="tel"
-              autocomplete="tel"
-              placeholder="+7 999 000-00-00"
-              required
-            >
-          </div>
-
-          <div class="field field-full">
-            <label for="service">Какая услуга вас интересует?</label>
-            <select id="service" name="service">
-              <option>Шторы под ключ</option>
-              <option>Выезд дизайнера</option>
-              <option>Только пошив</option>
-              <option>Карнизы и монтаж</option>
-              <option>Домашний текстиль</option>
-            </select>
-          </div>
-
-          <div class="field field-full">
-            <label for="message">Комментарий</label>
-            <textarea
-              id="message"
-              name="message"
-              placeholder="Например: нужно оформить гостиную и спальню"
-            ></textarea>
-          </div>
-
-          <label class="consent">
-            <input type="checkbox" required>
-            <span>Соглашаюсь на обработку персональных данных и ознакомлен(а) с политикой конфиденциальности.</span>
-          </label>
-
-          <button class="btn field-full" type="submit">Получить консультацию</button>
-
-          <div class="form-status" id="formStatus" role="status">
-            Спасибо! Заявка принята. Мы свяжемся с вами в ближайшее время.
-          </div>
-        </form>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="container footer-inner">
-      <span>© <span id="year"></span> Olga Textile. Дизайн и пошив штор.</span>
-      <span>Информация на сайте не является публичной офертой.</span>
-    </div>
-  </footer>
-
-  <script>
-    const menuButton = document.querySelector(".menu-button");
-    const navigation = document.querySelector(".nav-links");
-    const navigationLinks = navigation.querySelectorAll("a");
-
-    function closeMenu() {
-      navigation.classList.remove("open");
-      document.body.classList.remove("menu-open");
-      menuButton.setAttribute("aria-expanded", "false");
-      menuButton.textContent = "☰";
-    }
-
-    menuButton.addEventListener("click", () => {
-      const isOpen = navigation.classList.toggle("open");
-
-      document.body.classList.toggle("menu-open", isOpen);
-      menuButton.setAttribute("aria-expanded", String(isOpen));
-      menuButton.textContent = isOpen ? "×" : "☰";
-    });
-
-    navigationLinks.forEach(link => {
-      link.addEventListener("click", closeMenu);
-    });
-
-    document.getElementById("requestForm").addEventListener("submit", function (event) {
-      event.preventDefault();
-
-      const formStatus = document.getElementById("formStatus");
-      formStatus.style.display = "block";
-
-      this.reset();
-    });
-
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
+    <h1>Привет, это мой сайт!</h1>
+    <p>А вот моя первая картинка:</p>
+    <!-- Вот эта строка вставляет картинку из той же папки -->
+    <img src="photo.jpg" alt="Красивый пейзаж">
 </body>
 </html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ольга Картавцева — дизайнер штор и текстиля</title>
+<meta name="description" content="Ателье дизайна штор и текстиля от Ольги Картавцевой. Индивидуальные решения, замеры, консультации и пошив.">
+<meta name="author" content="Ольга Картавцева">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@300;400;600;700&family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root {
+--cream: #f7f7e0;
+--velvet: #6c4b37;
+--cream-light: #ffffff;
+--velvet-light: #c2a180;
+--primary: #2c3e50;
+--primary-dark: #1a252f;
+--shadow: 0 8px 30px rgba(108, 62, 55, 0.15 );
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+
+body {
+font-family: 'Work Sans', Arial, sans-serif;
+background: #fafafa;
+color: var(--primary);
+line-height: 1.6;
+}
+
+h1, h2, h3 { font-family: 'Fraunces', serif; }
+
+/* Навигация */
+.nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 1rem 2rem;
+position: sticky;
+top: 0;
+z-index: 1000;
+background: rgba(255, 255, 255, 0.95);
+backdrop-filter: blur(10px);
+box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.nav-logo {
+font-size: 1.5rem;
+font-weight: 600;
+color: var(--primary);
+display: flex;
+flex-direction: column;
+line-height: 1.2;
+}
+
+.nav-logo span:last-child {
+color: var(--velvet);
+font-family: 'Fraunces', serif;
+font-size: 1.8rem;
+font-weight: 700;
+}
+
+.nav-links {
+display: flex;
+gap: 1.5rem;
+list-style: none;
+}
+
+.nav-links a {
+color: var(--primary);
+text-decoration: none;
+font-weight: 500;
+padding: 0.5rem 0.8rem;
+border-radius: 8px;
+transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+background: var(--cream);
+color: var(--velvet);
+}
+
+.nav-cta {
+background: var(--velvet);
+color: var(--cream-light);
+border-radius: 30px;
+padding: 0.7rem 1.5rem;
+font-weight: 600;
+border: none;
+cursor: pointer;
+text-decoration: none;
+transition: all 0.3s ease;
+}
+
+.nav-cta:hover {
+background: var(--velvet-light);
+color: var(--primary);
+transform: translateY(-2px);
+}
+
+.nav-burger {
+display: none;
+cursor: pointer;
+font-size: 1.8rem;
+color: var(--primary);
+background: none;
+border: none;
+}
+
+/* Герой-блок с анимацией штор */
+
+/* === ФОТО 1: ГЛАВНЫЙ ЭКРАН (ФОН) === */
+/* Рекомендуемый размер: 1920x1080 пикселей */
+.hero {
+min-height: 90vh;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+background: url(' https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+overflow: hidden;
+}
+
+.hero::before {
+content: '';
+position: absolute;
+inset: 0;
+background: rgba(44, 62, 80, 0.4);
+}
+
+.curtain {
+position: absolute;
+top: 0;
+width: 50%;
+height: 100%;
+background: linear-gradient(90deg, #5a3e2b 0%, #8a634f 50%, #5a3e2b 100%);
+z-index: 10;
+transition: transform 2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+box-shadow: 5px 0 15px rgba(0,0,0,0.3);
+}
+
+.curtain-left { 
+left: 0; 
+transform-origin: left;
+background: repeating-linear-gradient(90deg, #6c4b37 0px, #8a634f 20px, #6c4b37 40px);
+}
+.curtain-right { 
+right: 0; 
+transform-origin: right;
+background: repeating-linear-gradient(90deg, #6c4b37 0px, #8a634f 20px, #6c4b37 40px);
+}
+
+.hero.loaded .curtain-left { transform: scaleX(0.15); }
+.hero.loaded .curtain-right { transform: scaleX(0.15); }
+
+.hero-content {
+position: relative;
+z-index: 20;
+background: rgba(247, 247, 224, 0.95);
+padding: 3rem;
+border-radius: 24px;
+box-shadow: var(--shadow);
+text-align: center;
+max-width: 600px;
+margin: 2rem;
+opacity: 0;
+transform: translateY(30px);
+transition: all 1s ease 1s;
+}
+
+.hero.loaded .hero-content {
+opacity: 1;
+transform: translateY(0);
+}
+
+.eyebrow {
+font-size: 1rem;
+font-weight: 700;
+color: var(--velvet);
+text-transform: uppercase;
+letter-spacing: 0.1em;
+margin-bottom: 0.5rem;
+display: block;
+}
+
+.hero-content h1 {
+font-size: 2.8rem;
+color: var(--primary);
+margin-bottom: 1rem;
+line-height: 1.2;
+}
+
+.hero-content p {
+font-size: 1.1rem;
+margin-bottom: 2rem;
+color: #555;
+}
+
+.btn {
+display: inline-block;
+padding: 0.9rem 2rem;
+border-radius: 30px;
+font-weight: 600;
+text-decoration: none;
+transition: all 0.3s ease;
+margin: 0 0.5rem;
+}
+
+.btn-primary {
+background: var(--velvet);
+color: white;
+}
+.btn-primary:hover {
+background: var(--primary-dark);
+transform: translateY(-2px);
+box-shadow: 0 5px 15px rgba(108, 62, 55, 0.3);
+}
+
+.btn-ghost {
+background: transparent;
+color: var(--primary);
+border: 2px solid var(--primary);
+}
+.btn-ghost:hover {
+background: var(--primary);
+color: white;
+}
+
+/* Секции */
+section {
+padding: 5rem 2rem;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+section h2 {
+font-size: 2.5rem;
+text-align: center;
+color: var(--velvet);
+margin-bottom: 3rem;
+position: relative;
+}
+
+section h2::after {
+content: '';
+display: block;
+width: 60px;
+height: 3px;
+background: var(--velvet-light);
+margin: 1rem auto 0;
+border-radius: 2px;
+}
+
+/* Портфолио (Аккордеон) */
+.foldRow {
+margin-bottom: 1rem;
+border-radius: 12px;
+overflow: hidden;
+box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+background: white;
+}
+
+.foldCaption {
+padding: 1.5rem 2rem;
+cursor: pointer;
+font-weight: 600;
+font-size: 1.2rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+transition: background 0.3s;
+font-family: 'Fraunces', serif;
+}
+
+.foldCaption::after {
+content: '+';
+font-size: 1.5rem;
+color: var(--velvet);
+transition: transform 0.3s;
+}
+
+.foldCaption.active {
+background: var(--cream);
+color: var(--velvet);
+}
+
+.foldCaption.active::after {
+transform: rotate(45deg);
+}
+
+.foldContent {
+max-height: 0;
+overflow: hidden;
+transition: max-height 0.5s ease, padding 0.5s ease;
+padding: 0 2rem;
+}
+
+.foldContent.show {
+max-height: 600px;
+padding: 0 2rem 2rem 2rem;
+}
+
+.foldContent img {
+width: 100%;
+max-height: 400px;
+object-fit: cover;
+border-radius: 8px;
+margin-bottom: 1rem;
+}
+
+/* Обо мне - НОВЫЕ СТИЛИ */
+.about-section {
+background: white;
+border-radius: 24px;
+margin-bottom: 3rem;
+padding: 4rem 2rem;
+}
+
+.about-content {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 3rem;
+max-width: 900px;
+margin: 0 auto;
+}
+
+.about-image img {
+width: 250px;
+height: 250px;
+object-fit: cover;
+border-radius: 50%; /* Делает фото круглым */
+box-shadow: var(--shadow);
+border: 5px solid var(--cream);
+}
+
+.about-text {
+max-width: 500px;
+font-size: 1.1rem;
+color: #555;
+text-align: left;
+}
+
+/* Контакты */
+#contact {
+background: var(--cream);
+border-radius: 24px;
+margin: 2rem auto 5rem;
+}
+
+#contactForm {
+max-width: 500px;
+margin: 0 auto;
+}
+
+#contactForm label {
+display: block;
+margin-bottom: 0.5rem;
+font-weight: 600;
+color: var(--primary);
+}
+
+#contactForm input, 
+#contactForm textarea {
+width: 100%;
+padding: 1rem;
+border-radius: 8px;
+border: 1px solid #ddd;
+font-size: 1rem;
+margin-bottom: 1.5rem;
+font-family: 'Work Sans', sans-serif;
+transition: border-color 0.3s;
+}
+
+#contactForm input:focus, 
+#contactForm textarea:focus {
+outline: none;
+border-color: var(--velvet);
+}
+
+#formMsg {
+text-align: center;
+margin-top: 1rem;
+font-weight: 600;
+color: var(--velvet);
+display: none;
+}
+
+/* Footer */
+footer {
+background: var(--primary);
+color: var(--cream);
+text-align: center;
+padding: 3rem 2rem;
+}
+
+footer a {
+color: var(--velvet-light);
+text-decoration: none;
+}
+
+footer a:hover {
+color: white;
+text-decoration: underline;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+.nav { padding: 1rem; }
+.nav-links {
+position: fixed;
+top: 70px;
+left: 0;
+right: 0;
+background: white;
+flex-direction: column;
+padding: 2rem;
+gap: 1.5rem;
+box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+transform: translateY(-150%);
+transition: transform 0.4s ease;
+z-index: 999;
+}
+.nav-links.active { transform: translateY(0); }
+.nav-burger { display: block; }
+.nav-cta { display: none; }
+
+.hero-content { padding: 2rem 1.5rem; margin: 1rem; }
+.hero-content h1 { font-size: 2rem; }
+.btn { display: block; margin: 0.5rem 0; text-align: center; }
+
+section { padding: 3rem 1rem; }
+section h2 { font-size: 2rem; }
+
+/* Адаптивность для секции "Обо мне" */
+.about-content {
+flex-direction: column;
+text-align: center;
+gap: 1.5rem;
+}
+.about-text {
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+
+<!-- Навигация -->
+<nav class="nav" aria-label="Главное меню">
+<div class="nav-logo">
+<span>Ателье текстильного дизайна</span>
+<span>Ольга Картавцева</span>
+</div>
+<ul class="nav-links" id="navLinks">
+<li><a href="#portfolio" onclick="closeMenu()">Портфолио</a></li>
+
+<li><a href="#about" onclick="closeMenu()">Обо мне</a></li>
+
+<li><a href="#contact" onclick="closeMenu()">Контакты</a></li>
+
+</ul>
+<a href="#contact" class="nav-cta">Бесплатная консультация</a>
+
+<button class="nav-burger" id="burger" aria-label="Открыть меню">☰</button>
+</nav>
+
+<!-- Герой-блок -->
+<section class="hero" id="hero">
+<div class="curtain curtain-left"></div>
+<div class="curtain curtain-right"></div>
+
+<div class="hero-content">
+<span class="eyebrow">Индивидуальный дизайн текстиля</span>
+<h1>Ольга Картавцева</h1>
+<p>Создаю уют и гармонию в вашем доме с помощью авторского дизайна штор. От замера и подбора ткани до идеального пошива и монтажа.</p>
+<div>
+<a href="#contact" class="btn btn-primary">Заказать замер</a>
+
+<a href="#portfolio" class="btn btn-ghost">Смотреть работы</a>
+
+</div>
+</div>
+</section>
+
+<!-- Портфолио -->
+<section id="portfolio">
+<h2>Мои работы</h2>
+
+<div class="foldRow">
+<div class="foldCaption">Шторы для спальни в современном стиле</div>
+<div class="foldContent">
+<img src="https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=800&q=80" alt="Шторы в спальне">
+<p>Блэкаут-ткань благородного серого оттенка с легкой тюлевой вуалью. Обеспечивают полную темноту для комфортного сна и добавляют интерьеру элегантности.</p>
+</div>
+</div>
+
+<div class="foldRow">
+<div class="foldCaption">Классические портьеры с ламбрекеном</div>
+<div class="foldContent">
+<img src="https://images.unsplash.com/photo-1505691723518-36a5ac3be353?auto=format&fit=crop&w=800&q=80" alt="Классические шторы">
+<p>Бархатная ткань глубокого изумрудного цвета. Сложная драпировка и ручная сборка создают эффект роскоши и торжественности в гостиной.</p>
+</div>
+</div>
+
+<div class="foldRow">
+<div class="foldCaption">Римские шторы для кухни</div>
+<div class="foldContent">
+<img src="https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?auto=format&fit=crop&w=800&q=80" alt="Римские шторы">
+
+<p>Практичное и стильное решение. Натуральный лен с геометрическим принтом, устойчивый к выгоранию и легкий в уходе.</p>
+</div>
+</div>
+
+<div class="foldRow">
+<div class="foldCaption">Текстильный декор: подушки и покрывала</div>
+<div class="foldContent">
+<img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=800&q=80" alt="Текстильный декор">
+<p>Комплексное оформление спальни: пошив штор в паре с декоративными подушками и покрывалом из одной коллекции тканей для идеальной гармонии.</p>
+</div>
+</div>
+</section>
+<!-- Обо мне -->
+<section id="about" class="about-section">
+<h2>Обо мне</h2>
+<div class="about-content">
+<div class="about-image">
+<!-- === ФОТО 6: ПОРТРЕТ (Обо мне) === -->
+<!-- Рекомендуемый размер: 400x400 пикселей (квадратное фото) -->
+<img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80" alt="Ольга Картавцева" style="object-position: 15% 50%;">
+</div>
+<div class="about-text">
+<p>
+Здравствуйте! Меня зовут Оля. Уже более 15 лет я помогаю людям превращать их дома в места силы и уюта с помощью текстиля. Я лично выезжаю на замер, привожу образцы тканей, учитываю все особенности вашего интерьера и освещения. Моя цель — не просто повесить шторы, а создать законченный образ вашего пространства.
+</p>
+</div>
+</div>
+</section>
+
+<!-- Контакты -->
+<section id="contact">
+<h2>Свяжитесь со мной</h2>
+<form id="contactForm" onsubmit="handleSubmit(event)">
+<label for="name">Ваше имя</label>
+<input type="text" id="name" name="name" placeholder="Как к вам обращаться?" required>
+
+<label for="phone">Телефон или Telegram</label>
+<input type="text" id="phone" name="phone" placeholder="+7 (921) 926-17-71" required>
+
+<label for="message">Пожелания или вопрос</label>
+<textarea id="message" name="message" rows="4" placeholder="Например: нужны шторы в гостиную, 2 окна..."></textarea>
+
+<button type="submit" class="btn btn-primary" style="width: 100%; border: none; cursor: pointer;">Отправить заявку</button>
+<p id="formMsg">Спасибо! Ваша заявка отправлена. Я свяжусь с вами в ближайшее время.</p>
+</form>
+</section>
+
+<!-- Footer -->
+<footer>
+<p style="font-family: 'Fraunces', serif; font-size: 1.5rem; margin-bottom: 1rem;">Ольга Картавцева</p>
+<p>Дизайн и пошив штор на заказ</p>
+<p style="margin-top: 1rem;">
+📞 <a href="tel:+79219261771">+7 (921) 926-17-71</a> &nbsp;|&nbsp; 
+
+✉️ <a href="www.individualtextile.ru">info@example.com</a>
+
+</p>
+<p style="margin-top: 2rem; font-size: 0.9rem; opacity: 0.7;">© 2024 Все права защищены. Сайт создан с любовью.</p>
+</footer>
+
+<!-- Скрипты -->
+<script>
+// 1. Анимация раздвижения штор при загрузке
+window.addEventListener('load', () => {
+setTimeout(() => {
+document.getElementById('hero').classList.add('loaded');
+}, 300);
+});
+
+// 2. Мобильное меню
+const burger = document.getElementById('burger');
+const navLinks = document.getElementById('navLinks');
+
+burger.addEventListener('click', () => {
+navLinks.classList.toggle('active');
+burger.textContent = navLinks.classList.contains('active') ? '✕' : '☰';
+});
+
+function closeMenu() {
+navLinks.classList.remove('active');
+burger.textContent = '☰';
+}
+
+// 3. Аккордеон портфолио
+document.querySelectorAll('.foldCaption').forEach(caption => {
+caption.addEventListener('click', () => {
+const content = caption.nextElementSibling;
+const isActive = caption.classList.contains('active');
+
+// Закрываем все
+document.querySelectorAll('.foldCaption').forEach(c => c.classList.remove('active'));
+document.querySelectorAll('.foldContent').forEach(c => c.classList.remove('show'));
+
+// Если не был активен, открываем текущий
+if (!isActive) {
+caption.classList.add('active');
+content.classList.add('show');
+}
+});
+});
+
+// Открываем первый элемент по умолчанию
+document.querySelector('.foldCaption').click();
+
+// 4. Обработка формы и отправка в Telegram
+async function handleSubmit(e) {
+e.preventDefault(); // Останавливаем стандартную перезагрузку страницы
+
+// Получаем данные, которые ввел клиент
+const name = document.getElementById('name').value;
+const phone = document.getElementById('phone').value;
+const message = document.getElementById('message').value;
+
+// Красиво оформляем текст сообщения для Telegram
+const text = `🌟 Новая заявка с сайта!\n\n👤 Имя: ${name}\n📞 Контакт: ${phone}\n💬 Сообщение: ${message}`;
+
+// Ваши секретные ключи
+const token = '8625507149:AAF1DohkygE9PuomIGr4xeG4YEZIOUlI77s';
+const chatId = '386243164';
+const url = `https://api.telegram.org/bot${token}/sendMessage`;
+
+// Находим кнопку и текст сообщения на сайте
+const msgElement = document.getElementById('formMsg' );
+const submitBtn = e.target.querySelector('button[type="submit"]');
+const originalBtnText = submitBtn.textContent;
+
+// Меняем текст кнопки, пока идет отправка
+submitBtn.textContent = 'Отправка...';
+submitBtn.disabled = true;
+
+try {
+// Отправляем запрос в Telegram
+const response = await fetch(url, {
+method: 'POST',
+headers: { 'Content-Type': 'application/json' },
+body: JSON.stringify({
+chat_id: chatId,
+text: text
+})
+});
+
+if (response.ok) {
+// Если всё прошло успешно
+msgElement.style.display = 'block';
+msgElement.style.color = 'var(--velvet)';
+msgElement.textContent = 'Спасибо! Ваша заявка отправлена. Я свяжусь с вами в ближайшее время.';
+e.target.reset(); // Очищаем поля формы
+} else {
+// Если Telegram вернул ошибку
+msgElement.style.display = 'block';
+msgElement.style.color = 'red';
+msgElement.textContent = 'Произошла ошибка. Пожалуйста, напишите мне напрямую в Telegram.';
+}
+} catch (error) {
+// Если нет интернета
+msgElement.style.display = 'block';
+msgElement.style.color = 'red';
+msgElement.textContent = 'Ошибка сети. Проверьте подключение к интернету.';
+} finally {
+// Возвращаем кнопку в нормальное состояние
+submitBtn.textContent = originalBtnText;
+submitBtn.disabled = false;
+
+// Прячем сообщение об успехе через 5 секунд
+setTimeout(() => {
+msgElement.style.display = 'none';
+}, 5000);
+}
+}
+</script>
+</body>
+</html>
+
+
+
 
